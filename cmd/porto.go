@@ -82,7 +82,7 @@ func uploadToS3(client *s3.Client, bucketName, filePath string) error {
 		return err
 	}
 
-	url := fmt.Sprintf("https://%v.s3.amazonaws.com/%v", bucketName, key)
+	url := fmt.Sprintf("https://%v.s3.amazonaws.com/%v", bucketName, filePath)
 	log.Printf("File %s uploaded to %s\n", filePath, url)
 	return nil
 }
