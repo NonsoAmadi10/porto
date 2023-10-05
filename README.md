@@ -21,13 +21,13 @@ wget https://github.com/NonsoAmadi10/porto/releases/download/1.0.0/porto
 - Make the binary executable:
 
 ```bash
-chmod +x ./abobi
+chmod +x ./porto
 ```
 - Move the kubectl binary to a file location on your system PATH.
 
 ```bash
-sudo mv ./kubectl /usr/local/bin/abobi
-sudo chown root: /usr/local/bin/abobi
+sudo mv ./porto /usr/local/bin/porto
+sudo chown root: /usr/local/bin/porto
 ```
 Test to ensure the version you installed is up-to-date:
 
